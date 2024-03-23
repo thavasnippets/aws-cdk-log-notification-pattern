@@ -6,6 +6,8 @@ The one common pattern is to set up log monitoring and notification for error lo
 ## Design
 Monitoring logs for errors is crucial for maintaining the reliability and performance of cloud-based applications. AWS offers services like CloudWatch Logs for log management and Amazon SNS for notification delivery. By combining these services, you can set up automated error detection and notification systems, ensuring that you're promptly alerted to any issues in your applications.
 
+![alt text](https://github.com/thavasnippets/aws-cdk-log-notification-pattern/blob/master/pattern.png)
+
 ## How to Use This Pattern
 To utilize this AWS CDK log notification pattern for error logs in your own AWS environment, follow these steps:
 
