@@ -1,0 +1,61 @@
+{
+  "title": "Implementing AWS CDK Log Notification Pattern for Error Logs",
+  "description": "Implementing AWS CDK Log Notification Pattern for Error Logs",
+  "language": "Python",
+  "level": "200",
+  "framework": "CDK",
+  "introBox": {
+    "headline": "How it works",
+    "text": [
+      "Monitoring logs for errors is crucial for maintaining the reliability and performance of cloud-based applications. AWS offers services like CloudWatch Logs for log management and Amazon SNS for notification delivery. By combining these services, you can set up automated error detection and notification systems, ensuring that you're promptly alerted to any issues in your applications"
+    ]
+  },
+  "gitHub": {
+    "template": {
+      "repoURL": "https://github.com/thavasnippets/aws-cdk-log-notification-pattern",
+      "templateURL": "aws-cdk-log-notification-pattern",
+      "projectFolder": "aws-cdk-log-notification-pattern",
+      "templateFile": "aws_cdk_log_notification_pattern_stack.py"
+    }
+  },
+  "resources": {
+    "bullets": [
+      {
+        "text": "Cloudwatch Subscription Filters",
+        "link": "https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/SubscriptionFilters.html"
+      },
+      {
+        "text": "Amazon Lambda: Serverless solution",
+        "link": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html"
+      },
+      {
+        "text": "Amazon Lambda with SNS",
+        "link": "https://docs.aws.amazon.com/lambda/latest/dg/with-sns.html"
+      }
+    ]
+  },
+  "deploy": {
+    "text": [
+      "sam deploy"
+    ]
+  },
+  "testing": {
+    "text": [
+      "See the GitHub repo for detailed testing instructions."
+    ]
+  },
+  "cleanup": {
+    "text": [
+      "Delete the stack: <code>cdk delete</code>."
+    ]
+  },
+  "authors": [
+    {
+      "name": "Thavaselvan Palanivel",
+      "image": "",
+      "bio": "Experienced Multi-Cloud Developer & Architect specializing in AWS and Azure Cloud. Holder of AWS Solution Architect and Azure Developer certifications, I bring 12+ of expertise in Python, ReactJS, and .NET technologies. My focus is on seamlessly integrating these technologies into robust, scalable cloud architectures. Whether architecting microservices, deploying containerized solutions, or leading DevOps initiatives, I optimize infrastructure for efficiency. ",
+      "linkedin": "https://www.linkedin.com/in/thavaselvan/",
+      "twitter": ""
+    }
+  ]
+}
